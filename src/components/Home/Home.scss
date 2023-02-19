@@ -18,32 +18,44 @@
 
 .navigator {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 30%;
+    gap: 20%;
 }
 
 .navigator :hover {
     background-color: #808080;
     cursor: pointer;
-    
+
 }
 
-.navigator > div{
-    text-decoration: white;
-}
 section {
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .tile {
     background-color: $Grey;
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    padding: 35px;
+    min-width: auto;
+    width: fit-content;
+    block-size: fit-content;
+    padding: 10%;
+    flex: 1 0 0;
 }
 
+#users {
+    flex: 2 0 0;
+}
+
+@media only screen and (max-width: 1645px) {
+
+    /* horizontal scrollbar for tables if mobile screen */
+    .navigator {
+        gap: 30px;
+    }
+}
 
 h1 {
     color: $Black;
@@ -53,6 +65,6 @@ h3 {
     color: $Yellow;
 }
 
-a{
+a {
     color: $Blue;
 }

@@ -16,7 +16,7 @@ function Home() {
             </section>
             <br />
             <section className='navigator'>
-                <div className='tile' onClick={() => navigate('/users')}>
+                <div id='users' className='tile' onClick={() => navigate('/users')}>
                     <Person sx={{ color: styles.yellow, fontSize: '80px' }} />
                     <div>Users</div>
                 </div>

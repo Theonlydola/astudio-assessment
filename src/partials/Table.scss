@@ -29,3 +29,11 @@ table {
     padding: 8px;
     overflow-wrap: break-word;
   }
+
+  @media only screen and (max-width: 915px) {
+    /* horizontal scrollbar for tables if mobile screen */
+    table {
+      overflow-x: auto;
+      display: block;
+    }
+  }
