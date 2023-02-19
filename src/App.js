@@ -3,6 +3,8 @@ import './App.scss';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import DataComponent from './components/DataComponent/DataComponent';
 import Home from './components/Home/Home';
+import PageNotFound from './components/PageNotFound/PageNotFound';
+
 import { users, products } from './config/entries'
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
             <Route path='/' exact element={<Home />} />
             <Route path='/users' element={<DataComponent type={'users'} entries={users} />} />
             <Route path='/products' element={<DataComponent type={'products'}  entries={products}/>} />
+            <Route path='*' element={<PageNotFound />} />
           </Routes>
         </div>
       </Router>
