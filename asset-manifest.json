@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/astudio-assessment/static/css/main.a09fc676.css",
+    "main.css": "/astudio-assessment/static/css/main.b2f528ac.css",
     "main.js": "/astudio-assessment/static/js/main.fd2bd8e6.js",
     "index.html": "/astudio-assessment/index.html",
-    "main.a09fc676.css.map": "/astudio-assessment/static/css/main.a09fc676.css.map",
+    "main.b2f528ac.css.map": "/astudio-assessment/static/css/main.b2f528ac.css.map",
     "main.fd2bd8e6.js.map": "/astudio-assessment/static/js/main.fd2bd8e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.a09fc676.css",
+    "static/css/main.b2f528ac.css",
     "static/js/main.fd2bd8e6.js"
   ]
 }
