@@ -7,7 +7,7 @@ import { users, products } from './config/entries'
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename="/astudio-assessment">
         <div className='container'>
           <Routes>
             <Route path='/' exact element={<Home />} />
