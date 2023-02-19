@@ -2,9 +2,9 @@ import { Breadcrumbs } from '@mui/material';
 import Link from '@mui/material/Link';
 function MyBreadCrumbs({ name, link }) {
     return (
-        <div role="presentation" style={{marginTop: '30px'}}>
+        <div role="presentation" style={{ marginTop: '30px' }}>
             <Breadcrumbs aria-label="breadcrumb">
-                <Link underline="hover" color="inherit" href="/">
+                <Link underline="hover" color="inherit" href="/astudio-assessment/">
                     Home
                 </Link>
                 <Link
