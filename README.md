@@ -2,6 +2,8 @@
 
 Simple Application to fetch, search and filter entries from Dummy Json.
 
+You can visit the deployed application through  [HERE](https://theonlydola.github.io/astudio-assessment/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and Material UI.
 
 ## Available Scripts
